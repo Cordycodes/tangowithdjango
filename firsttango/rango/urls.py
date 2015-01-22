@@ -6,3 +6,6 @@ urlpatterns = patterns('',
         url(r'^about/', views.about, name='about')
 
 )
+
+
+
