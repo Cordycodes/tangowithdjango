@@ -53,8 +53,8 @@ def populate():
         url="https://github.com/Cordycodes/")
 
     add_page(cat=cordelia_cat,
-             title="Cordelia's PythonAnywhere Page",
-             url="https://www.pythonanywhere.com/user/Cordycodes/")
+        title="Cordelia's PythonAnywhere Page",
+        url="https://www.pythonanywhere.com/user/Cordycodes/")
 
     # Print out what we have added to the user.
     for c in Category.objects.all():
